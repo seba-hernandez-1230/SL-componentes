@@ -1,0 +1,117 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Navegacion Y Titulo*/
+.titulo{
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(84, 154, 13);
+    margin: 0px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(22, 22, 22);
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.item{
+    padding: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.item:hover {
+    background:rgb(84, 154, 13);
+
+}
+
+img{
+    width: 130px;
+    height: 120px;
+}
+/*CSS PARA INTEL*/
+.intel{
+    text-align: center;
+    background-color: rgb(96, 177, 96);
+    padding: 10px;
+    margin: 0px;
+    font-size: 23px;
+    border-bottom: 2px solid;
+}
+
+.procesador{
+    padding: 10px;
+    margin: 0px;
+    background-color: rgb(216, 207, 207);
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 21px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+/*CSS PARA AMD*/
+.amd{
+    text-align: center;
+    background-color: rgb(96, 177, 96);
+    padding: 10px;
+    margin: 0px;
+    border: 2px solid;
+}
+
+.procesadoramd{
+    padding: 10px;
+    margin: 0px;
+    background-color: rgb(216, 207, 207);
+    
+}
+/*Pie de pagina*/
+#redessociales{
+    text-align: center;
+    font-size: 17px;
+}
+
+.redes{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 7px;
+}
+
+footer{
+    background-color: rgb(134, 130, 130);
+    padding: 5px;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+#img{
+    width: 20px;
+    height: 20px;
+    padding-top: 6px;
+}
+
+
+

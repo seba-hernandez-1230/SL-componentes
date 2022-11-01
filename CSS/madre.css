@@ -1,0 +1,143 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*tabla*/
+th{
+    background-color: yellow;
+}
+
+tbody{
+    color: blue;
+}
+
+td, tr, th{
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+table{
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabla{
+    text-align: center;
+}
+/*Navegación y Titulo*/
+.titulo{
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(84, 154, 13);
+    margin: 0px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(22, 22, 22);
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.item{
+    padding: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.item:hover {
+    background:rgb(84, 154, 13);
+
+}
+/*Pie de Pagina*/
+.piedepagina{
+    background-color: rgb(134, 130, 130);
+    font-size: 10px;
+    padding: 8px;
+    margin: 0px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+li{
+    list-style: none;
+    font-size: 12px;
+    padding: 4px;
+}
+
+#redessociales{
+    font-size: 20px;
+    text-align: center;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.redes{
+    text-align: center;
+    padding-top: 7px;
+    font-size: 12px;
+}
+
+#img{
+    width: 20px;
+    height: 20px;
+    padding-top: 6px;
+}
+
+/*Principal*/
+.placamadre{
+    padding: 10px;
+    margin: 0px;
+    background-color: burlywood;
+    margin-bottom: 0px;
+    
+
+}
+
+.table{
+    background-color: rgb(177, 145, 104);
+    padding-bottom: 20px;
+    padding-top: 8px;
+    margin-top: 0px;
+}
+
+.white{
+    background-color: white;
+}
+
+.placatitulo{
+    background-color: rgb(84, 154, 13);
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 0px;
+}
+
+h1{
+    font-size: 21px;
+}
+
+h2{
+    font-size: 19px;
+}
